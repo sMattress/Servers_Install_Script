@@ -24,11 +24,11 @@ services:
     image: registry.cn-hangzhou.aliyuncs.com/smattress/web-server:latest
     container_name: sMattress_WebServer
     depends_on:
-      - intelligent_mattress_redis
-      - intelligent_mattress_mysql
+      - sMattress_Redis
+      - sMattress_MySql
     external_links:
-      - intelligent_mattress_redis
-      - intelligent_mattress_mysql
+      - sMattress_Redis
+      - sMattress_MySql
     ports:
       - 80:8080
       - 443:8443
