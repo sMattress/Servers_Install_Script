@@ -1,5 +1,5 @@
 #!/bin/sh
-curl -L http://static.lesmarthome.com/deploy/sMattress.zip > /usr/local/sMattress.zip
+curl https://raw.githubusercontent.com/sMattress/Servers_Install_Script/master/sMattress.zip > /usr/local/sMattress.zip
 cd /usr/local
 unzip /usr/local/sMattress.zip
 
