@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 curl -L http://static.lesmarthome.com/deploy/sMattress.zip > /usr/local/sMattress.zip
 cd /usr/local
 unzip /usr/local/sMattress.zip
