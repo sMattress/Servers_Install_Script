@@ -9,6 +9,7 @@
 
 **可选**自动部署插件方法，依赖`Ruby-2.0 or later`和`Sinatra`
 
-`$ curl -sSL https://raw.githubusercontent.com/sMattress/Servers_Install_Script/master/AutoDeploy_Plugin.sh |sh`
+`$ curl https://raw.githubusercontent.com/sMattress/Servers_Install_Script/master/AutoDeploy_Plugin.sh |sh`
 
 [1]:	https://zoutstanding.gitbooks.io/remotectrldoc/content/Install.html
+
